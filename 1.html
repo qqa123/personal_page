@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>My Useful Links</title>
+</head>
+<style>
+body{
+background:black no-repeat center;
+//color:white;
+background-size:100%;
+height:100%;
+}
+
+a>img {
+border:2px solid #6B6;
+border-radius:20px;
+width:90px;
+height:90px;
+opacity:0.3;
+}
+
+#logout {
+	float:right;
+}
+a:link {color:#fff;}
+
+.ew>iframe {
+	position:relative;
+	float:left;
+	opacity:0.3;
+}
+#hidden_cal {
+	position:absolute;
+	width:1000px; height:800px;
+	top:0; bottom:0; left:0; right:0; margin:auto;
+	border:3px red solid;
+	opacity:1;
+	z-index:20;
+	display: none;
+}
+
+* {
+	margin:0;padding:0;
+}
+#bottom_tool {
+	position:fixed;
+	bottom:0;
+	width:70%;
+	height:30px;
+	left:0;
+	right:0;
+	margin:auto;
+	border:2px blue solid;
+	border-radius:30px 30px 5px 5px;
+	padding:3px 30px;
+}
+#bottom_tool>img {
+	width:30px;
+	height:30px
+}
+#hidden_cal_back {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;left:0;
+    display: none;
+	z-index:10;
+	opacity:0.7;
+	background-color:black;
+}
+</style>
+<body>
+<div id="links">
+<a href="https://www.blogger.com/"><img src="icon/blogger.png" title="Blogger" /></a>
+<a href="https://mail.google.com/mail/"><img src="icon/gmail.png" title="GMail" /></a>
+<a href="http://cloud.feedly.com/"><img src="icon/feedly.png" title="Feedly" /></a>
+<a href="https://www.google.com/calendar"><img src="icon/cal.png" title="Google日曆" /></a>
+<a href="https://drive.google.com"><img src="icon/GDrive.png" title="Google Drive" /></a>
+<a href="https://maps.google.com.tw/"><img src="icon/maps.png" title="Google地圖" /></a>
+<a href="https://www.youtube.com/?gl=TW&hl=zh-TW"><img src="icon/youtube.png" title="YouTube" /></a>
+<a href="https://picasaweb.google.com/"><img src="icon/picasa.png" title="Picasa網路相簿" /></a>
+<a href="https://translate.google.com/#auto|zh-TW|"><img src="icon/GoogleTranslate.jpg" title="Google翻譯" /></a>
+<a href="https://plus.google.com/"><img src="icon/googleplus.png" title="Google+" /></a>
+<a href="https://www.facebook.com/"><img src="icon/facebook.png" title="facebook" /></a>
+<a href="http://www.mobile01.com/"><img src="icon/mobile01.jpg" title="Mobile01" /></a>
+<a href="http://tw.yahoo.com/"><img src="icon/yahoo.png" title="Yahoo!" /></a>
+<a href="http://www.ruten.com.tw/"><img src="icon/pchome.png" title="PChome" /></a>
+<a href="https://www.dropbox.com/"><img src="icon/dropbox.png" title="Dropbox" /></a>
+<a href="https://www.box.com/"><img src="icon/box.com.png" title="Box.com" /></a>
+<a href="https://www.evernote.com/Home.action"><img src="icon/evernote.png" title="Evernote" /></a>
+<a href="https://www.virustotal.com/"><img src="icon/virustotal.png" title="VirusTotal" /></a>
+<a href="http://www.gamer.com.tw/"><img src="icon/gamer.png" title="巴哈姆特" /></a>
+<a href="http://www.104.com.tw/"><img src="icon/104.jpg" title="104人力銀行" /></a>
+<a href="http://www.518.com.tw/"><img src="icon/518.png" title="518人力銀行" /></a>
+<a href="http://www.yes123.com.tw/admin/"><img src="icon/yes123.png" title="yes123求職網" /></a>
+<a href="http://linux.vbird.org/"><img src="icon/vbird.png" title="鳥哥的Linux私房菜" /></a>
+<a href="http://luckydog.tw/"><img src="icon/luckydog.png" title="LuckyDog" /></a>
+<a href="http://www.sports-tracker.com"><img src="icon/SportsTracker.png" title="SportsTracker" /></a>
+<a href="app.html"><img src="icon/Android.png" title="Android apps" /></a>
+<a href="icon/cal_2013.jpg"><img src="icon/holiday.png" title="Holiday" /></a>
+<a href="http://www.cwb.gov.tw/V7/observe/radar/"><img src="icon/cwb.jpg" title="雷達回波圖" /></a>
+<a href="https://tw.new.beanfun.com	"><img src="icon/beanfun.png" title="Beanfun" /></a>
+<a href="http://angularjs.org/"><img src="icon/angular.png" title="AngularJS" /></a>
+<a href="https://www.djangoproject.com/"><img src="icon/django.png" title="Django" /></a>
+<a href="http://phalconphp.com/"><img src="icon/phalcon.png" title="Phalcon" /></a>
+<a href="http://jquery.com/"><img src="icon/jquery.png" title="jQuery" /></a>
+<a href="https://github.com/"><img src="icon/github.png" title="GitHub" /></a>
+<a href="http://v3.bootcss.com/"><img src="icon/bootstrap.png" title="Bootstrap" /></a>
+<a href="http://socket.io/"><img src="icon/socketio.png" title="socketIO" /></a>
+</div>
+<div id="bottom">
+<div class="ew">
+<iframe src="https://mail.google.com/tasks/ig" width="350" height="350" scrolling="auto"></iframe>
+<iframe src="http://getpocket.com/unread" width="350" height="350" scrolling="auto"></iframe>
+</div>
+
+</div>
+
+<!--div id="hidden_cal" class="hidden_cal_back">
+<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;showTz=0&amp;height=350&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=1nf4ilsdto0opbj22qp4arviu4%40group.calendar.google.com&amp;color=%238C500B&amp;ctz=Asia%2FTaipei" style=" border-width:0 " width="1000" height="800" frameborder="0" scrolling="auto"></iframe>
+</div>
+<div class="hidden_cal_back" id="hidden_cal_back">
+</div>
+<div id="bottom_tool">
+<img src="icon/google_calendar.png" />
+<img src="icon/holiday.png" title="Holiday" />
+</div-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+document.body.style.backgroundImage='url(icon/'+Math.round((Math.random()*23+1))+'.jpg)';
+//$(document).on("click","#bottom_tool>img,.hidden_cal_back",function(){$(".hidden_cal_back").fadeToggle();});
+//$("#bottom_tool>img,.hidden_cal_back").click(function(){$(".hidden_cal_back").fadeToggle();});
+$(".ew>iframe,a>img").on({mouseenter:function(){$(this).stop().fadeTo(100, 0.9);},mouseleave:function(){$(this).stop().fadeTo(500, 0.3);}});
+</script>
+</body>
+</html>
